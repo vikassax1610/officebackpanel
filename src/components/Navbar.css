@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+ul {
+  display: flex;
+  background-color: #4CAF50; /* Cool aquamarine-like tone */
+  padding: 10px; /* Adds spacing around the navbar */
+  gap: 10px; /* Space between buttons */
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li button {
+  margin: 5px;
+  font-size: 16px;
+  padding: 10px 25px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: #ff9800; /* Vibrant orange */
+  border-radius: 25px; /* Rounded, pill-shaped buttons */
+  cursor: pointer;
+  color: white; /* Makes the text stand out */
+  transition: all 0.3s ease; /* Smooth hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle depth */
+}
+
+ul li button:hover {
+  background-color: #e65100; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Emphasizes depth on hover */
+}
+
+ul li button:link {
+  transform: translateY(2px); /* Button presses in */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  background-color: aquamarine; /* Reduced shadow */
+}
+
+ul li button.active-link {
+  background-color: #3f51b5; /* Highlight active button */
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Extra pop for active link */
+}
+.logout{
+  right:0;
+}

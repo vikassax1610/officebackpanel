@@ -1,0 +1,88 @@
+.login-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(135deg, #00bcd4, #009688); /* Gradient background */
+}
+
+/* Form container styling */
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Title Styling */
+.login-head {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* .inputField Field Styling */
+.inputField {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* .inputField Focus Effect */
+.inputField:focus {
+  border-color: #00bcd4;
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.6);
+}
+
+/* .Login-button Styling */
+.Login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* .Login-button Hover Effect */
+.Login-button:hover {
+  background-color: #009688;
+  transform: translateY(-2px);
+}
+
+/* .Login-button Active Effect */
+.Login-button:active {
+  background-color: #00796b;
+  transform: translateY(1px);
+}
+
+/* Responsive Design for small screens */
+@media (max-width: 480px) {
+  form {
+    padding: 20px;
+  }
+
+  .login-head {
+    font-size: 1.5rem;
+  }
+
+  .inputField, .Login-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

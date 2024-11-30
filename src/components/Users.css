@@ -1,0 +1,72 @@
+/* General reset */
+
+
+/* Container for Users page */
+.container {
+  max-width: 1500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Table Style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header style */
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* Table data style */
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+/* Add a hover effect to table rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: #e3e3e3;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+}
